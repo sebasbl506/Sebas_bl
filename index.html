@@ -1,172 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEBAS_BL - Estrategia y Crecimiento Digital</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, #000000, #1a1a1a);
-            color: #ffffff;
-            font-family: 'Arial', sans-serif;
-            scroll-behavior: smooth;
-        }
-        header {
-            text-align: center;
-            padding: 50px 20px 20px 20px;
-            animation: fadeIn 2s;
-        }
-        .logo {
-            max-width: 200px;
-            height: auto;
-        }
-        h1 {
-            font-size: 3em;
-            margin: 20px 0 10px 0;
-        }
-        p.slogan {
-            font-size: 1.5em;
-            margin-bottom: 40px;
-            color: #cccccc;
-        }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            padding: 20px;
-        }
-        .service {
-            background-color: #121212;
-            border-radius: 15px;
-            padding: 20px;
-            width: 250px;
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .service:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
-        }
-        .service h3 {
-            margin-bottom: 15px;
-            font-size: 1.2em;
-        }
-        .cta {
-            text-align: center;
-            margin: 40px 0;
-        }
-        .whatsapp-btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #25D366;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1.3em;
-            box-shadow: 0 0 20px #25D366;
-            transition: transform 0.2s;
-        }
-        .whatsapp-btn:hover {
-            transform: scale(1.05);
-        }
-        .contact-form {
-            background-color: #121212;
-            border-radius: 15px;
-            padding: 30px;
-            max-width: 600px;
-            margin: 50px auto;
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-        }
-        .contact-form h2 {
-            margin-bottom: 20px;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 15px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 10px;
-            font-size: 1em;
-        }
-        .contact-form button {
-            padding: 15px 30px;
-            background-color: #25D366;
-            color: #fff;
-            border: none;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1.2em;
-            cursor: pointer;
-            box-shadow: 0 0 20px #25D366;
-        }
-        footer {
-            text-align: center;
-            padding: 30px 10px;
-            font-size: 0.9em;
-            color: #888888;
-        }
-        a {
-            color: #ffffff;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebasbl.com - Paquetes Digitales</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+    }
+    h1 {
+      color: #00ffaa;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .package {
+      border: 1px solid #333;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      background-color: #1a1a1a;
+    }
+    .package h2 {
+      color: #00ffaa;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00ffaa;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img class="logo" src="logo.png" alt="SEBAS_BL Logo">
-        <h1>SEBAS_BL</h1>
-        <p class="slogan">Posiciono marcas. Potencio resultados. Activo algoritmos.</p>
-    </header>
-    
-    <section class="services">
-        <div class="service">
-            <h3>📈 Crecimiento de Seguidores</h3>
-            <p>Seguidores segmentados y reales para tu nicho de mercado.</p>
-        </div>
-        <div class="service">
-            <h3>🎯 Visualizaciones Segmentadas</h3>
-            <p>Impulsa tus videos y publicaciones al público correcto.</p>
-        </div>
-        <div class="service">
-            <h3>🤖 Optimización de Algoritmos</h3>
-            <p>Activamos los algoritmos para aumentar tu alcance orgánico.</p>
-        </div>
-        <div class="service">
-            <h3>💰 Monetización Estratégica</h3>
-            <p>Convierte tus redes sociales en una fuente real de ingresos.</p>
-        </div>
-        <div class="service">
-            <h3>📊 Asesoría Personalizada</h3>
-            <p>Consultorías 1 a 1 para potenciar tu presencia digital.</p>
-        </div>
-    </section>
 
-    <div class="cta">
-        <p><strong>"Trabajando con artistas, empresas y emprendedores en LATAM."</strong></p>
-        <a class="whatsapp-btn" href="https://wa.me/573125085660" target="_blank">Agenda tu asesoría</a>
+  <header>
+    <img src="logo.png" alt="SebasBL">
+    <h1>Paquetes Digitales Profesionales</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="package">
+      <h2>VL1 — Paquete Básico</h2>
+      <p>Seguidores iniciales, visualizaciones, optimización básica de perfil.</p>
+      <p>Precio: $50 USD</p>
+      <a class="button" href="https://drive.google.com/file/d/1VL1-Paquete-Basico/view?usp=sharing" target="_blank">Descargar VL1</a>
     </div>
 
-    <section class="contact-form">
-        <h2>Formulario de Contacto</h2>
-        <form action="#" method="post">
-            <input type="text" name="nombre" placeholder="Tu nombre" required>
-            <input type="email" name="email" placeholder="Tu correo" required>
-            <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
-            <button type="submit">Enviar Mensaje</button>
-        </form>
-    </section>
+    <div class="package">
+      <h2>VL2 — Paquete Estándar</h2>
+      <p>Seguidores segmentados, visualizaciones garantizadas, optimización intermedia, reporte mensual.</p>
+      <p>Precio: $100 USD</p>
+      <a class="button" href="https://drive.google.com/file/d/1VL2-Paquete-Estandar/view?usp=sharing" target="_blank">Descargar VL2</a>
+    </div>
 
-    <footer>
-        <p>Instagram: <a href="https://www.instagram.com/sebas_bl15" target="_blank">@sebas_bl15</a></p>
-        <p>&copy; 2025 SEBAS_BL. Todos los derechos reservados.</p>
-    </footer>
+    <div class="package">
+      <h2>VL3 — Paquete Avanzado</h2>
+      <p>Seguidores latinos, visualizaciones virales, optimización total, reporte completo.</p>
+      <p>Precio: $150 USD</p>
+      <a class="button" href="https://drive.google.com/file/d/1VL3-Paquete-Avanzado/view?usp=sharing" target="_blank">Descargar VL3</a>
+    </div>
+
+  </div>
+
+  <footer>
+    Contacto: <a href="https://wa.me/573125085660" style="color:#00ffaa;">WhatsApp</a>  
+    <br> © 2025 Sebas_bl. Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
